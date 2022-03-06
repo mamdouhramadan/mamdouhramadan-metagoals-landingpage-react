@@ -1,0 +1,165 @@
+.section-title {
+  font-size: 36px;
+  position: relative;
+  color: var(--main-color);
+  margin-bottom: 20px;
+  font-weight: 800;
+}
+.section-title::after {
+  content: "";
+  background-color: var(--main-color);
+  position: absolute;
+  bottom: -6px;
+  left: 0;
+  height: 4px;
+  width: 30px;
+  font-weight: bold;
+  border-radius: 3px;
+}
+.section-title.text-center::after {
+  left: 0;
+  right: 0;
+  display: block;
+  margin: auto;
+}
+
+/* Form Control */
+.form-outline .form-control {
+  height: 50px;
+  line-height: 50px;
+  padding: 10px;
+  font-size: 16px !important;
+}
+.form-outline .form-control:focus {
+  border-color: var(--main-color);
+}
+.form-outline .form-control.form-control-lg ~ .form-label {
+  padding-top: 10px;
+  font-size: 16px !important;
+}
+
+/* Icon Box */
+.box-icon {
+  margin-bottom: 20px;
+}
+.box-icon .icon-wrap {
+  background-color: rgba(0, 0, 0, 0.05);
+  width: 64px !important;
+  height: 64px !important;
+  flex: 0 0 64px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.box-icon .app-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.app-icon ion-icon {
+  font-size: 28px;
+}
+
+.box-title {
+  font-size: 16px;
+  font-weight: bold;
+  text-transform: capitalize;
+}
+
+.box-description {
+  font-size: 14px;
+  margin: 4px 0;
+}
+/* Team Card */
+.team-card.leader-ship {
+  display: flex;
+}
+.team-card.leader-ship {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+}
+
+.team-card.leader-ship .user-img img {
+  width: 100px;
+  margin-right: 15px;
+}
+
+.team-card.leader-ship .user-detailes .username {
+  font-weight: bold;
+  font-size: 18px;
+}
+
+.team-card.team-member {
+  text-align: center;
+  margin: 0 5px 35px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  padding: 24px 15px;
+}
+.team-card.team-member img {
+  max-width: 100%;
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16);
+  border-radius: 50%;
+  margin-bottom: 20px;
+}
+.team-card.team-member .username {
+  font-size: 18px;
+  font-weight: bold;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+.team-card.team-member .job-title {
+  font-size: 15px;
+  height: 45px;
+  overflow: hidden;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+}
+/* Manager Card */
+.manager-card {
+  position: relative;
+}
+.manager-card .manager-content {
+  padding: 15px;
+  background: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.15);
+  border-radius: 8px;
+  position: absolute;
+  bottom: 35px;
+  left: 50px;
+  width: calc(100% - 50px);
+}
+.manager-card .manager-content .manager-img {
+  max-width: 100%;
+}
+.manager-card .manager-content .manager-name {
+  font-size: 18px;
+  font-weight: bold;
+}
+.manager-card .manager-content .manager-title {
+  font-size: 15px;
+}
+/* Theme Button */
+.theme-btn {
+  height: 45px;
+  min-width: 160px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 14px;
+}
+.btn-rounded {
+  border-radius: 50px;
+}
+
+.theme-btn span {
+  margin-bottom: -2px;
+}

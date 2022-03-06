@@ -1,0 +1,177 @@
+/*  Small devices (landscape phones, 576px and up) */
+@media (max-width: 576px) {
+  p,
+  button {
+    font-size: 3.5vw !important;
+  }
+  .hero-section .hero-title {
+    font-size: 8vw !important;
+  }
+}
+
+/*  Medium devices (tablets, 768px and up) */
+@media (max-width: 768px) {
+  /* Global Style */
+  section {
+    padding: 50px 0 !important;
+    overflow-x: hidden;
+  }
+  p {
+    margin-bottom: 10px !important;
+  }
+  section .section-title {
+    text-align: center;
+  }
+  section .section-title::after {
+    margin: auto !important;
+    left: 0;
+    right: 0;
+  }
+
+  /* Header Style  */
+  .app-header .toggle-sidebar{
+    display: block;
+  }
+  .app-header .container {
+    padding: 0;
+  }
+  .app-header .logo-img {
+    margin-left: -20px !important;
+    display: block;
+  }
+  .app-header .list-navigation {
+    display: none !important;
+  }
+  /* Hero Section */
+  .hero-section {
+    padding: 130px 0 60px !important;
+    min-height: auto !important;
+  }
+  .hero-section .hero-container .mockup-img {
+    margin-bottom: -120px !important;
+    margin-top: 30px !important;
+  }
+  /*About Section  */
+  .about-section {
+    text-align: center;
+  }
+  .about-section .text-description {
+    padding: 0 !important;
+  }
+  /* Our Services */
+
+  .service-section .box-content {
+    margin: 0 10px !important;
+  }
+  /* achivements-section */
+  .achivements-section .row {
+    flex-direction: column-reverse;
+  }
+  /* leadership-section */
+  .leadership-section {
+    padding-bottom: 20px !important;
+    overflow-x: hidden !important;
+  }
+
+  .leadership-section .container > .row {
+    overflow-x: hidden !important;
+    flex-direction: column-reverse;
+  }
+  .leadership-section p {
+    text-align: center;
+  }
+  .leadership-section .col-md-8 .row {
+    flex-direction: row;
+  }
+  .leadership-section .col-md-8 .row .col-md-6 {
+    flex: 0 0 50%;
+    text-align: center;
+  }
+  .leadership-section .team-card.leader-ship {
+    justify-content: center;
+    margin-bottom: 40px;
+  }
+  .leadership-section .team-card.leader-ship img {
+    margin: auto;
+  }
+  .leadership-section .manager-card {
+    margin-bottom: 50px;
+  }
+  .leadership-section .manager-card .manager-img {
+    display: flex;
+    justify-content: center;
+  }
+  .leadership-section .manager-card .manager-content {
+    left: 0;
+    right: 0;
+    margin: auto;
+    bottom: -20px;
+    text-align: center;
+  }
+  /* team-section */
+  .team-section .team-member {
+    margin: 10px 0;
+    padding: 10px !important;
+  }
+  .team-section .team-member .username {
+    font-size: 3.5vw;
+    line-height: 5vw;
+    margin-bottom: 0;
+  }
+  .team-section .team-member .job-title {
+    font-size: 3.2vw;
+    line-height: 4.5vw;
+    margin: 5px -5px -10px;
+  }
+  /* getin-touch-section */
+  .getin-touch-section {
+    padding: 50px 20px !important;
+    text-align: center;
+  }
+  .getin-touch-section .pe-5 {
+    padding: 0 20px !important;
+  }
+
+  .getin-touch-section button {
+    margin-left: auto !important;
+    margin-right: auto !important;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (min-width: 769px) {
+  section {
+    padding: 75px 0 !important;
+  }
+  .app-header .toggle-sidebar{
+    display: none !important;
+  }
+  .react-multi-carousel-item--active:first-of-type {
+    opacity: 1 !important;
+    margin: 20px !important;
+  }
+}
+
+/*  Large devices (desktops, 992px and up) */
+@media (max-width: 992px) {
+  section {
+    max-width: 100%;
+    overflow-x: hidden;
+  }
+  /* Global Style */
+  .container {
+    max-width: 100% !important;
+  }
+  /* Our Services */
+  .service-section .mockup-img {
+    padding: 0 !important;
+  }
+  .service-section .mockup-img img {
+    margin: 10px auto 25px !important;
+    max-width: 100% !important;
+    display: block;
+  }
+  .footer-serciton .footer-widget {
+    padding: 10px !important;
+  }
+}
